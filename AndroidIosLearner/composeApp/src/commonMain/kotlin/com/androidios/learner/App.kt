@@ -19,6 +19,7 @@ import androidioslearner.composeapp.generated.resources.compose_multiplatform
 @Composable
 @Preview
 fun App() {
+    //check
     MaterialTheme {
         var showContent by remember { mutableStateOf(false) }
         Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
