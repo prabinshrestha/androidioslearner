@@ -39,9 +39,10 @@ struct MyView:View {
         ZStack
         {
             
-        }.background(Color.green).task {
+        }.frame(width: 300,height: 300)
+            .task {
             await loadData()
-        }
+        }.background(Color.red)
     }
     
     nonisolated func loadData() async   {
@@ -49,6 +50,10 @@ struct MyView:View {
             //since simulator on swiftui hangs to write this code hence using async help
             let example = ClassExample()
             example.name = "Hello, World!"
+            example.printName()
+           let something = example.getMeSomething()
+            await logger.log(something)
+            example.printSomething(message: "U r awesome!")
             await logger.log(example.name)
             debugPrint("hello")
         }catch{
