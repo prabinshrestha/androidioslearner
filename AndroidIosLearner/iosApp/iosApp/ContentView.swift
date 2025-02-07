@@ -41,6 +41,11 @@ struct MyView:View {
             
         }.frame(width: 300,height: 300)
             .task {
+                DispatchQueue.main.async {
+                    let example = ClassExample()
+                    example.name = "Hello, World!"
+                    example.printName()
+                }
             await loadData()
         }.background(Color.red)
     }
@@ -56,6 +61,7 @@ struct MyView:View {
             example.printSomething(message: "U r awesome!")
             await logger.log(example.name)
             debugPrint("hello")
+            example.toString()
         }catch{
             debugPrint("\(error)")
         }
