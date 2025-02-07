@@ -11,6 +11,7 @@
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
+		A7B152B72D55DDD300BBBEC8 /* JsonDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B152B52D55DDD300BBBEC8 /* JsonDto.swift */; };
 		A7F2DD382D54D3B0008668A3 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F2DD372D54D3B0008668A3 /* Colors.xcassets */; };
 		A7F2DD3B2D54D7F3008668A3 /* ClassExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F2DD3A2D54D7F3008668A3 /* ClassExample.swift */; };
 /* End PBXBuildFile section */
@@ -22,6 +23,7 @@
 		7555FF7B242A565900829871 /* AndroidIosLearner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndroidIosLearner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B152B52D55DDD300BBBEC8 /* JsonDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDto.swift; sourceTree = "<group>"; };
 		A7F2DD372D54D3B0008668A3 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		A7F2DD3A2D54D7F3008668A3 /* ClassExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassExample.swift; sourceTree = "<group>"; };
 		AB3632DC29227652001CCB65 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		A7F2DD392D54D7D8008668A3 /* LanguageFamiliar */ = {
 			isa = PBXGroup;
 			children = (
+				A7B152B52D55DDD300BBBEC8 /* JsonDto.swift */,
 				A7F2DD3A2D54D7F3008668A3 /* ClassExample.swift */,
 			);
 			path = LanguageFamiliar;
@@ -208,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
+				A7B152B72D55DDD300BBBEC8 /* JsonDto.swift in Sources */,
 				A7F2DD3B2D54D7F3008668A3 /* ClassExample.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 			);
