@@ -43,7 +43,7 @@ struct MyView:View {
             .task {
                 DispatchQueue.main.async {
                     let example = ClassExample()
-                    example.name = "Hello, World!"
+                    example.name = "Hello, World!-"
                     example.printName()
                 }
             await loadData()

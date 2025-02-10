@@ -12,11 +12,11 @@ import SwiftUI
 class AppLogger {
     
     public static let shared = AppLogger()
-  //  private let logger = Logger()
+    //  private let logger = Logger()
     
     func log(_ message: String) {
-      //  print("AppLogger: \(message)")
-       // logger.info("AppLogger: \(message)")
+        //  print("AppLogger: \(message)")
+        // logger.info("AppLogger: \(message)")
         debugPrint("AppLogger: \(message)")
     }
 }
